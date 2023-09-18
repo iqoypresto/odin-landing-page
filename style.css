@@ -1,0 +1,191 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+body{
+    font-family: 'Roboto',  sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: #1f2937;
+    color: white;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav h2 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.hero{
+    background-color: #1f2937;
+}
+
+.hero .content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.hero .content .hero-main-text{
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hero .content .hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.hero .content button{
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 40px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.information .content{
+    padding: 20px 0 50px 0;
+}
+
+.information .content .information-header-text{
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 40px;
+}
+
+.information .content .col-2 img{
+    border: 4px solid #3882f6;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 20px;
+} 
+
+.information .content .col-2 p{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote .content{
+    padding: 120px 0;
+}
+
+.quote .content p.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .content p.name{
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+}
+
+.action{
+    padding: 100px 0;
+}
+
+.action .content{
+    background-color: #3882f6;
+    color: white;
+    padding: 60px 0;
+    border-radius: 10px;
+}
+
+.action .content h3.call-action{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+.action .content p{
+    margin: 0;
+}
+
+.action .content .col-3{
+    display: flex;
+    justify-content: end;
+}
+
+.action .content .col-3 button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1f2937;
+    color: white;
+}
+
+footer .content{
+    padding: 25px 0;
+    text-align: center;
+}
